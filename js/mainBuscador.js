@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function () {
   iniciar(); // Iniciar el proceso al cargar la página
 });
 
-// Tarjeta de Animales
+/* // Tarjeta de Animales
 
 
 // URL de la API para obtener datos de animales
@@ -166,9 +166,9 @@ const obtenerDatos = async () => {
   } catch (error) {
     console.error('Error al obtener los datos:', error);
   }
-};
+}; */
 
-// Función para crear una tarjeta con información del animal y agregarla al HTML
+/* // Función para crear una tarjeta con información del animal y agregarla al HTML
 const crearTarjeta = (data) => {
   const tarjeta = `
     <div class="tarjetaInner">
@@ -192,7 +192,7 @@ const crearTarjeta = (data) => {
   `;
   const crear = document.getElementById("crearTarjeta");
   crear.innerHTML += tarjeta;
-};
+}; */
 
 // Función para limpiar las tarjetas existentes
 const limpiarTarjetas = () => {
