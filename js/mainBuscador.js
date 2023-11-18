@@ -1,3 +1,4 @@
+import {data} from './card.js';
 // Graficos Finales (Perros vs Gatos, Esterilizados, Edad)
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -21,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Luego puedes acceder a las funciones o variables exportadas desde "graficos.js"
   graficos.generarGraficos(datosAnimales);
+
+  const tarjetas = require('./card.js');
+  
+  // Luego puedes acceder a las funciones o variables exportadas desde "graficos.js"
+  console.log(tarjetas.data);
 
   /*  // Función para generar los gráficos
    const generarGraficos = (datosAnimales) => {

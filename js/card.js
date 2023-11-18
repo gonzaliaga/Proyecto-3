@@ -1,3 +1,4 @@
+import obtenerDatos from "./card.js";
 // Tarjeta de Animales
 
 
@@ -26,6 +27,7 @@ const obtenerDatos = async () => {
     console.error('Error al obtener los datos:', error);
   }
 };
+//export default obtenerDatos;
 // Función para crear una tarjeta con información del animal y agregarla al HTML
 const crearTarjeta = (data) => {
     const tarjeta = `
@@ -51,3 +53,4 @@ const crearTarjeta = (data) => {
     const crear = document.getElementById("crearTarjeta");
     crear.innerHTML += tarjeta;
   };
+  export default data
